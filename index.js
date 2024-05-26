@@ -3,10 +3,10 @@ const app = express();
 
 app.get("/greeting", function (req, res) {
   var name = req.query.name;
-  res.send("Hello " + name);
+  res.send("Hi " + name);
 });
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.send("Hi there!!!");
 });
 
 app.listen(8080);
